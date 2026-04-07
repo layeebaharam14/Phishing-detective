@@ -1,0 +1,1 @@
+print("Baseline Score: 0.66")
