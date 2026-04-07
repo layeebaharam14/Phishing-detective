@@ -1,4 +1,3 @@
-# Phishing Detective (Hackathon Demo)
 
 # 🛡️ Phishing Detective
 
