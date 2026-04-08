@@ -1,0 +1,8 @@
+[project]
+name = "phishing-detective"
+version = "0.1.0"
+description = "Phishing detection simulation"
+requires-python = ">=3.9"
+
+[tool.openenv]
+entrypoint = "inference.py"
