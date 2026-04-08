@@ -40,7 +40,7 @@ This project simulates real-world email scenarios where users must classify emai
 - Backend (Flask / API-based logic)
 
 ## 🔁 OpenEnv Structure
-.
+
 - `reset()` → Starts the game
 - `step(action)` → Processes user input
 - `state()` → Returns current email state
