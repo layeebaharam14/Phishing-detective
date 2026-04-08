@@ -1,4 +1,3 @@
-
 # 🛡️ Phishing Detective
 
 An interactive web-based simulation that helps users identify and classify phishing emails in real-world scenarios.
@@ -41,7 +40,7 @@ This project simulates real-world email scenarios where users must classify emai
 - Backend (Flask / API-based logic)
 
 ## 🔁 OpenEnv Structure
-
+.
 - `reset()` → Starts the game
 - `step(action)` → Processes user input
 - `state()` → Returns current email state
