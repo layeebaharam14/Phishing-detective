@@ -128,7 +128,12 @@ class MyEnvV4Environment:
         prediction: EmailLabel = action.action.strip().lower()  # type: ignore[assignment]
         correct: EmailLabel = self._current["label"]
         is_correct = prediction == correct
-        reward = 1.0 if is_correct else 0.0
+        if is_correct:
+            reward = 1.0 
+        elif prediction in ["phishing", "safe"]:
+            reward = 0.5
+        else:
+            reward = 0.0
 
         self._total_score += reward
 
